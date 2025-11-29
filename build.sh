@@ -2,9 +2,9 @@
 
 #------------------------------------------------------------------------------
 # @file
-# Builds a Hugo site hosted on a Cloudflare Worker.
+# Builds a Hugo site hosted on Vercel.
 #
-# The Cloudflare Worker automatically installs Node.js dependencies.
+# The Vercel build image automatically installs Node.js dependencies.
 #------------------------------------------------------------------------------
 
 main() {
@@ -60,8 +60,8 @@ main() {
   fi
 
   # Build the site
-  echo "Building the site..."
-  hugo --gc --minify
+  echo "Building the site"
+  hugo --gc --minify --baseURL "https://${VERCEL_PROJECT_PRODUCTION_URL}"
 
 }
 
