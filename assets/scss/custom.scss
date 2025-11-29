@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'LXGW WenKai GB Screen';
+  src: url('/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family: "LXGW WenKai GB Screen", "PingFang SC", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", sans-serif;
+
+body {
+  font-family: $font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family;
+}
+
+.navigation a,
+.navigation span {
+  font-family: $font-family;
+}
+
+.pagination {
+  font-family: $font-family;
+}
+
+.list ul li .title {
+  font-family: $font-family;
+}
