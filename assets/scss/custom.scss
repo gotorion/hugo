@@ -1,11 +1,6 @@
-@font-face {
-  font-family: 'LXGW WenKai GB Screen';
-  src: url('/fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
 
-$font-family: "LXGW WenKai GB Screen", "PingFang SC", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", sans-serif;
+$font-family: "Noto Serif SC", "PingFang SC", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", serif;
 
 body {
   font-family: $font-family;
